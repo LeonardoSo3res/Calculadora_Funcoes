@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="calculadora">
+    <h2>Calculadora</h2>
+
+    <input type="number" id="num1" placeholder="Primeiro número">
+    <br><br>
+
+    <input type="number" id="num2" placeholder="Segundo número">
+    <br><br>
+
+    <select id="operacao">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br><br>
+
+    <button onclick="calcular()">Calcular</button>
+
+    <h3 id="resultado"></h3>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
