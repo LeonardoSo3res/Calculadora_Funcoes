@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     justify-content: center;
@@ -51,4 +52,27 @@ body {
     margin-top: 15px;
     font-size: 20px;
     color: #ffcc00;
+}
+
+footer {
+    position: fixed;      /* Fica sempre no final da tela */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: repeating-linear-gradient(
+        90deg,         /* ângulo da listra */
+        whitesmoke,    /* cor 1 */
+        whitesmoke 300px,
+        rgb(102, 100, 100) 300px,
+        rgb(102, 100, 100) 695px);
+    color: #9c9898;          
+    text-align: center;    
+    padding: 12px 0;       
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px rgb(102, 100, 100) 695px;
+}
+
+footer strong {
+    color: #9c9898;
 }
