@@ -55,7 +55,7 @@ body {
 }
 
 footer {
-    position: fixed;      /* Fica sempre no final da tela */
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -76,3 +76,4 @@ footer {
 footer strong {
     color: #9c9898;
 }
+
